@@ -154,4 +154,13 @@ footer {
   width: 120px;
 }
 
+section {
+  border-bottom: 1px solid #dddddd;
+}
+
+.button,
+#contact a {
+  border-radius: 5px;
+}
+
 }
