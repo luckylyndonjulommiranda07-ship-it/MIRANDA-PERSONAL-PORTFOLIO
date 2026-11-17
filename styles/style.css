@@ -167,5 +167,9 @@ h1 {
   letter-spacing: 2px;
 }
 
+section h2 {
+  letter-spacing: 1px;
+}
+
 
 }
