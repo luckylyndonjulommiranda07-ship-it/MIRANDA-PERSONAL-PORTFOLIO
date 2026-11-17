@@ -171,5 +171,9 @@ section h2 {
   letter-spacing: 1px;
 }
 
+section p {
+  max-width: 800px;
+}
+
 
 }
