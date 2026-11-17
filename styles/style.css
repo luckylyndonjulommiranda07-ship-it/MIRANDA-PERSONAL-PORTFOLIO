@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f4ee;
+  color: #17202a;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Top header */
+
+header {
+  background-color: #d96c4d;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #17202a;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffb59f;
+}
+
+/* Sections */
+
+section {
+  margin: auto;
+  max-width: 1000px;
+  padding: 70px 20px;
+}
+
+section h2 {
+  color: #a8432e;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+/* Skills list */
+
+#skills {
+  background-color: #eadfd0;
+  max-width: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin-top: 20px;
+}
+
+#skills li {
+  background-color: white;
+  padding: 20px 30px;
+}
+
+/* Projects */
+
+#projects {
+  background-color: white;
+  max-width: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* Contact */
+
+#contact {
+  background-color: #f2c4b5;
+  max-width: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#contact a {
+  background-color: #a8432e;
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+  background-color: #17202a;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Mobile phones */
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 42px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px;
+  }
+
+  #skills ul {
+    display: block;
+  }
+
+  #skills li {
+    margin-bottom: 10px;
+  }
+
+  header img {
+  border: 3px solid white;
+  border-radius: 50%;
+  display: block;
+  height: 120px;
+  margin: 20px auto 0;
+  object-fit: cover;
+  width: 120px;
+}
+
+}
